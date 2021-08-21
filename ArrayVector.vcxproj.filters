@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="com.himiko">
+      <UniqueIdentifier>{f1ead6ea-f215-4aba-a007-84af1b3341ab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="com.himiko\array">
+      <UniqueIdentifier>{2d9e5cd2-47f2-4b2d-ad70-739b280782ae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="com.himiko\main">
+      <UniqueIdentifier>{266f5419-05ba-495f-845c-3b7850964e7f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="AlgoArray.cpp">
+      <Filter>com.himiko\array</Filter>
+    </ClCompile>
+    <ClCompile Include="DynArray.cpp">
+      <Filter>com.himiko\array</Filter>
+    </ClCompile>
+    <ClCompile Include="Main.cpp">
+      <Filter>com.himiko\main</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AlgoArray.h">
+      <Filter>com.himiko\array</Filter>
+    </ClInclude>
+    <ClInclude Include="DynArray.h">
+      <Filter>com.himiko\array</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
